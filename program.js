@@ -4,5 +4,7 @@ function upperCaser(input){
 
 
 // TDD
-console.log("return SIDD for sidd: ", upperCaser("sidd") === "SIDD");
-//module.exports = upperCaser;
+console.log("return SIDD for sidd: ", upperCaser("sidd") === "SIDD" );
+console.log("return S2DD for s2dd: ", upperCaser("s2dd") === "S2DD" );
+
+module.exports = upperCaser;
