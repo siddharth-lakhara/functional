@@ -25,11 +25,11 @@ console.log("works for base case: ",verifyInput(test0, { apple: 2, mango: 1, ban
 
 test1 = countWords(["apple", "apple", "apple", "apple"]);
 console.log("Variation in base case: ",verifyInput(test1, { apple: 4 }) === true);
-/*
+
 test2 = countWords([]);
 console.log("Empty array: ",verifyInput(test2, { }) === true);
 
 test3 = countWords(["apple", "mango", "banana", "grape"]);
 console.log("all different elementsc: ",verifyInput(test2, { apple:1, mango:1, banana:1, grape:1}) === true);
-*/
+
 module.exports = countWords;
