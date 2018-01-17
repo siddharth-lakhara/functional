@@ -30,6 +30,6 @@ let test2 = countWords([]);
 console.log("Empty array: ",verifyInput(test2, { }) === true);
 
 let test3 = countWords(["apple", "mango", "banana", "grape"]);
-console.log("all different elementsc: ",verifyInput(test2, { apple:1, mango:1, banana:1, grape:1}) === true);
+console.log("all different elementsc: ",verifyInput(test3, { apple:1, mango:1, banana:1, grape:1}) === true);
 
 module.exports = countWords;
