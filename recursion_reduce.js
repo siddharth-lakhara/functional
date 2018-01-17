@@ -17,4 +17,10 @@ function fn(prev, curr, index, arr){
 let test0 = reduce([1,2,3], fn, 0);
 console.log("passed basic case: ", test0 === 6 );
 
+let test1 = reduce([], fn, 0);
+console.log("Empty array: ", test1 === 0 );
+
+let test2 = reduce([0,0,0], fn, 0);
+console.log("All zeroes: ", test2 === 0 );
+
 module.exports = reduce;
